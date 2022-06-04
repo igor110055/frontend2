@@ -61,7 +61,7 @@ const renderFooterDesktop = (inputEmail, sendEmail, emailAddress) => {
 					</div>
 					<div className="footer__info">
 						<p className="footer__info__title">CONTACT</p>
-						<div style={{ borderBottom: '2px solid var(--yellow)', width: 50, marginBottom: 20 }}></div>
+						<div style={{ borderBottom: '2px solid var(--blue)', width: 50, marginBottom: 20 }}></div>
 						<p className="footer__info__item">
 							<FaPhoneAlt className="footer__info__item__icon" /> +84 963244785
 						</p>
@@ -71,7 +71,7 @@ const renderFooterDesktop = (inputEmail, sendEmail, emailAddress) => {
 					</div>
 					<div className="footer__news">
 						<p className="footer__news__title">QUICK LINKS</p>
-						<div style={{ borderBottom: '2px solid var(--yellow)', width: 50, marginBottom: 20 }}></div>
+						<div style={{ borderBottom: '2px solid var(--blue)', width: 50, marginBottom: 20 }}></div>
 						<p className="footer__info__item">
 							<Link to="/Markets">Markets</Link>
 						</p>
@@ -90,7 +90,7 @@ const renderFooterDesktop = (inputEmail, sendEmail, emailAddress) => {
 					</div>
 					<div className="footer__info">
 						<p className="footer__info__title">SERVICE SUPPORT</p>
-						<div style={{ borderBottom: '2px solid var(--yellow)', width: 50, marginBottom: 20 }}></div>
+						<div style={{ borderBottom: '2px solid var(--blue)', width: 50, marginBottom: 20 }}></div>
 						<p className="footer__info__item">
 							<Link to="/fee">Asset Fee </Link>
 						</p>
