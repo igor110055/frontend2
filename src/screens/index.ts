@@ -19,4 +19,3 @@ export * from './TradingScreen';
 export * from './AssetsFeeScreen';
 export * from './NewUdonHomePage';
 export * from './Referral';
-export * from './UdonLanding';
