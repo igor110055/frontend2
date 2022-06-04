@@ -49,7 +49,7 @@ export const ru: LangType = {
 	'page.profile.accountActivity.tab.activity': 'Activity',
 	'page.profile.accountActivity.tab.device': 'Device',
 
-	'page.profile.activeStep.title.welcome': 'Welcome to UDONEX',
+	'page.profile.activeStep.title.welcome': 'Welcome to FORTEM',
 	'page.profile.activeStep.desc.just': 'Just a few more steps and you’re good to go!',
 	'page.profile.activeStep.step1.tile.register': 'Register Account',
 	'page.profile.activeStep.step2.title.2fa': '2FA',
@@ -1037,7 +1037,7 @@ export const ru: LangType = {
 
 	'page.header.signUp': 'Регистрация',
 	'page.header.signUp.create': 'CREATE A FREE ACCOUNT',
-	'page.header.signUp.welcome': 'Welcome to Udonex',
+	'page.header.signUp.welcome': 'Welcome to FORTEM',
 	'page.header.signUp.email': 'Почта',
 	'page.header.signUp.email.message.error': 'Почта недействительная',
 	'page.header.signUp.password': 'Пароль',
@@ -1107,6 +1107,7 @@ export const ru: LangType = {
 	'page.body.customization.themes.color.systemGreen': 'System Green',
 	'page.body.customization.themes.color.systemRed': 'System Red',
 	'page.body.customization.themes.color.systemYellow': 'System Yellow',
+	
 	'page.body.customization.themes.color.asks': 'Asks color',
 	'page.body.customization.themes.color.bids': 'Bids color',
 	'page.body.customization.themes.color.primaryTextColor': 'Primary text',

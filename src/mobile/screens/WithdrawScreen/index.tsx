@@ -118,7 +118,7 @@ const WithdrawBody = props => {
 							history.push('/profile/kyc');
 						}}
 						className="btn px-4 py-2"
-						style={{ backgroundColor: 'var(--yellow)', fontSize: '1.3rem' }}
+						style={{ backgroundColor: 'var(--blue)', fontSize: '1.3rem' }}
 					>
 						{intl.formatMessage({ id: 'page.body.profile.verification.verify' })}
 					</button>

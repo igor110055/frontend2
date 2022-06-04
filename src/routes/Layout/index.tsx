@@ -587,7 +587,7 @@ class LayoutComponent extends React.Component<LayoutProps, LayoutState> {
 				titleModal={this.translate('page.modal.expired.title')}
 				bodyModal={
 					<Button
-						style={{ backgroundColor: 'var(--yellow)' }}
+						style={{ backgroundColor: 'var(--blue)' }}
 						block={true}
 						type="button"
 						onClick={this.handleSubmitExpSessionModal}

@@ -326,7 +326,7 @@ export class Withdraw extends React.Component<WithdrawProps, WithdrawState> {
 					{isMobileDevice && twoFactorAuthRequired && this.renderOtpCodeInput()}
 					<div className="cr-withdraw__deep d-flex justify-content-end">
 						<Button
-							style={{ backgroundColor: 'var(--yellow)' }}
+							style={{ backgroundColor: 'var(--blue)' }}
 							variant="primary"
 							size="lg"
 							onClick={this.handleClick}
@@ -349,7 +349,7 @@ export class Withdraw extends React.Component<WithdrawProps, WithdrawState> {
 								{`${formatNumber(toString(this.props.remains))} / `}
 								<span
 									style={{
-										color: 'var(--yellow)',
+										color: 'var(--blue)',
 									}}
 								>
 									{formatNumber(toString(this.props.limit)) + ` USDT`}

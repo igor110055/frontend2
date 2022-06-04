@@ -17,7 +17,7 @@ export const en = {
 	'page.mobile.home.signIn.footer': '© 2017 - 2021 UdoneEX.com. All rights reserved',
 
 	'page.mobile.home.signUp.title': 'Create a free account',
-	'page.mobile.home.signUp.welcome': 'Welcome to UDONEX',
+	'page.mobile.home.signUp.welcome': 'Welcome to FORTEM',
 	'page.mobile.home.signUp.email': 'Email',
 	'page.mobile.home.signUp.emailInput': 'Enter your email',
 	'page.mobile.home.signUp.password': 'Password',

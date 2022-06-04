@@ -175,7 +175,7 @@ const Login = React.memo((props: LogInProps) => {
 									marginTop: '1rem',
 								}}
 							>
-								WELCOME TO UDONEX
+								WELCOME TO FORTEM
 							</div>
 						</div>
 					</div>

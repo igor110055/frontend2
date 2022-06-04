@@ -102,7 +102,7 @@ export const WalletListScreen = () => {
 			return (
 				<span>
 					<span>{amountString}</span>
-					<span className="ml-1" style={{ color: 'var(--yellow)' }}>
+					<span className="ml-1" style={{ color: 'var(--blue)' }}>
 						{accurency}
 					</span>
 				</span>

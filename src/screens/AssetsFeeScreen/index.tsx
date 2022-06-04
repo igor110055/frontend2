@@ -261,7 +261,7 @@ export const AssetsFeeScreen = () => {
 										borderRadius: '5px',
 										fontSize: '12px',
 										color: 'black',
-										backgroundColor: 'var(--yellow)',
+										backgroundColor: 'var(--blue)',
 									}}
 								>
 									{key ? getTabName(key) : null}

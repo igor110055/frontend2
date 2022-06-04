@@ -157,7 +157,7 @@ export const WithdrawScreen = () => {
 								{intl.formatMessage({ id: 'page.body.plugins.wallet.withdraw.body.otp.fail' })}
 							</p>
 							<button
-								style={{ background: 'var(--yellow)', width: '100px' }}
+								style={{ background: 'var(--blue)', width: '100px' }}
 								onClick={handleClose}
 								className="btn btn-primary mt-3"
 							>

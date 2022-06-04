@@ -124,7 +124,7 @@ export const PersonalVerify = (props: PersonalVerifyProps) => {
 					<div className="mb-3" style={{ height: '30px' }}>
 						<button
 							className="btn"
-							style={{ backgroundColor: 'var(--yellow)' }}
+							style={{ backgroundColor: 'var(--blue)' }}
 							hidden={step === 1 || step === 6}
 							onClick={isSubmitClicked ? handleNavigateVerifyHome : goBackStep}
 						>

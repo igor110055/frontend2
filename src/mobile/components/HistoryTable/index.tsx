@@ -28,7 +28,7 @@ const HistoryTable = (props: any) => {
 		const process = require('assets/status/wait.svg');
 		const fail = require('assets/status/fail.svg');
 		const success = require('assets/status/success.svg');
-		const checking = <span style={{ color: 'var(--yellow)' }}>Checking...</span>;
+		const checking = <span style={{ color: 'var(--blue)' }}>Checking...</span>;
 
 		const statusMapping = {
 			succeed: <img src={success} alt="success" />,

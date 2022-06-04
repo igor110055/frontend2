@@ -117,7 +117,7 @@ export const MobilePersonalVerify = () => {
 				<div className="mb-3 d-flex flex-row justify-content-between">
 					<button
 						className="btn"
-						style={{ backgroundColor: 'var(--yellow)' }}
+						style={{ backgroundColor: 'var(--blue)' }}
 						hidden={step === 1}
 						onClick={isClickedSubmit ? handleNavigateVerifyHome : goBackStep}
 					>
@@ -125,7 +125,7 @@ export const MobilePersonalVerify = () => {
 					</button>
 					<button
 						className="btn"
-						style={{ backgroundColor: 'var(--yellow)' }}
+						style={{ backgroundColor: 'var(--blue)' }}
 						hidden={step !== 6 || isClickedSubmit}
 						onClick={submit}
 					>

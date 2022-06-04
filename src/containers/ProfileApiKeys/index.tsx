@@ -341,7 +341,7 @@ export const ProfileApiKeys: React.FC<ProfileApiKeysProps> = () => {
 				</div>
 				<div className="td-pg-profile__content__item__header__action">
 					<button
-						style={{ backgroundColor: 'var(--yellow)' }}
+						style={{ backgroundColor: 'var(--blue)' }}
 						type="button"
 						className="td-pg-profile--radius btn btn-success"
 						onClick={handleCreateKeyClick}

@@ -42,7 +42,7 @@ export const ModalCheckingWithdraw = (props: ModalCheckingWithdrawProps) => {
 			<div className="pg-exchange-modal-submit-footer mt-5 modal-footer__withdraw-confirm">
 				<Button
 					style={{
-						background: 'var(--yellow)',
+						background: 'var(--blue)',
 						border: '1px solid #848E9C',
 						borderRadius: '23.5px',
 					}}

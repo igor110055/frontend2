@@ -101,7 +101,7 @@ export const ReferralContent: React.FC = () => {
 													<button
 														className="text-center td-referral-content__copy-link"
 														style={{
-															backgroundColor: 'var(--yellow)',
+															backgroundColor: 'var(--blue)',
 															borderRadius: '10px',
 															padding: '6px 16px',
 															color: '#FFF',

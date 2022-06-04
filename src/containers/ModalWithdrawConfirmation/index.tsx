@@ -89,7 +89,7 @@ class ModalWithdraw extends React.Component<Props> {
 				</Button>
 				<Button
 					style={{
-						background: 'var(--yellow)',
+						background: 'var(--blue)',
 						border: '1px solid #848E9C',
 						borderRadius: '23.5px',
 					}}

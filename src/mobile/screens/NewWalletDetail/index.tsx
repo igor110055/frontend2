@@ -105,7 +105,7 @@ export const NewWalletDetail: FC = () => {
 					</Link>
 					<Link
 						to={`/wallets/${wallet?.currency}/deposit`}
-						className="td-mobile-wallet-detail__panel__buttons__btn td-mobile-wallet-detail__panel__buttons__btn--yellow"
+						className="td-mobile-wallet-detail__panel__buttons__btn td-mobile-wallet-detail__panel__buttons__btn--blue"
 					>
 						{intl.formatMessage({ id: 'page.body.wallets.tabs.deposit' })}
 					</Link>

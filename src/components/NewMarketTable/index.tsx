@@ -43,7 +43,7 @@ const TableStyles = styled.div`
 		th {
 			color: #000;
 			padding-left: 40px;
-			background-color: var(--btn-yellow-level-3);
+			background-color: var(--btn-blue-level-3);
 		}
 		th:not(:first-child) {
 			text-align: center;

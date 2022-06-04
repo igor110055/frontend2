@@ -58,7 +58,7 @@ class ModalWithdrawSubmitComponent extends React.Component<Props> {
 			<div className="pg-exchange-modal-submit-footer modal-footer__withdraw-submit">
 				<Button
 					style={{
-						background: 'var(--yellow)',
+						background: 'var(--blue)',
 						border: '1px solid #848E9C',
 						borderRadius: '23.5px',
 					}}

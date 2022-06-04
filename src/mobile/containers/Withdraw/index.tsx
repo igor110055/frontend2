@@ -144,7 +144,7 @@ class Withdraw extends React.Component<DispatchProps & WithdrawProps & ReduxProp
 								${formatNumber(toString(this.props.remains))} / `}
 								<span
 									style={{
-										color: 'var(--yellow)',
+										color: 'var(--blue)',
 									}}
 								>
 									{formatNumber(toString(this.props.limit)) + ` USDT`}

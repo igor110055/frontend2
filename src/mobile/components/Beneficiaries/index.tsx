@@ -405,7 +405,7 @@ class BeneficiariesComponent extends React.Component<Props, State> {
 							{this.translate('page.body.wallets.beneficiaries.dropdown.name')}:{' '}
 							<span>{currentWithdrawalBeneficiary.name}</span>
 						</span>
-						<span className="select__left__address" style={{ color: 'var(--yellow)' }}>
+						<span className="select__left__address" style={{ color: 'var(--blue)' }}>
 							{currentWithdrawalBeneficiary.data.address}
 						</span>
 					</div>

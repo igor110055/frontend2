@@ -155,7 +155,7 @@ export const OrderHistoryListStyle = styled.div`
 			}
 			td {
 				.td-order-history-list-executed {
-					color: var(--system-yellow);
+					color: var(--system-blue);
 				}
 
 				.td-order-history-list-canceled {

@@ -33,7 +33,7 @@ export const WithdrawHistory: React.FC<WithdrawHistoryProps> = (props: WithdrawH
 		const process = require('../../assets/status/wait.svg');
 		const fail = require('../../assets/status/fail.svg');
 		const success = require('../../assets/status/success.svg');
-		const checking = <span style={{ color: 'var(--yellow)' }}>Checking...</span>;
+		const checking = <span style={{ color: 'var(--blue)' }}>Checking...</span>;
 		const statusMapping = {
 			confirming: <img src={process} alt="confirming" />,
 			succeed: <img src={success} alt="succeed" />,
