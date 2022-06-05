@@ -16,7 +16,7 @@ export const defaultConfig: Config = {
 		authUrl: '/api/v2/barong',
 		tradeUrl: '/api/v2/udonex',
 		applogicUrl: '/api/v2/applogic',
-		rangerUrl: `wss://${window.location.origin.split('//')[1]}/api/v2/ranger`,
+		rangerUrl: `ws://${window.location.origin.split('//')[1]}/api/v2/ranger`,
 		holderUrl: '/api/v2/holder',
 		transactionUrl: '/api/v2/transaction',
 		statisticUrl: '/api/v2/statistic',
