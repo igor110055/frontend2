@@ -14,7 +14,7 @@ export const en = {
 	'page.homePage.btn.buyList': 'Buyer List',
 	'page.homePage.download.download': 'Download',
 	'page.homePage.download.name': 'FORTEM',
-	'page.homePage.download.title': 'Trade BTC, USD and Alt coins',
+	'page.homePage.download.title': 'Trade Crypto, Tokens and Stable coins',
 	'page.homePage.feature.title': 'Why join FORTEM ?',
 	'page.homePage.feature.title.1': 'User-friendly interface with conventional tools.',
 	'page.homePage.feature.title.2': 'Professional market analytics',

@@ -139,7 +139,7 @@ export const NewUdonHomePage = () => {
 									<div className="col-12">
 										<div className="d-flex justify-content-start">
 											<h1 style={{ color: '#FFFFFF' }}> {translate('page.homePage.download.download')}</h1>
-											<h1 style={{ color: '#FFB800', marginLeft: 12 }}>
+											<h1 style={{ color: '#017890', marginLeft: 12 }}>
 												{' '}
 												{translate('page.homePage.download.name')}
 											</h1>
