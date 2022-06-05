@@ -20,7 +20,7 @@ if (process.env.NODE_ENV === 'development') {
 			bannerUrl: 'http://localhost:4000/api',
 			withdrawLimitUrl: 'http://localhost:4000/api',
 		},
-		minutesUntilAutoLogout: '5',
+		minutesUntilAutoLogout: '50',
 		withCredentials: false,
 		gaTrackerKey: '',
 		rangerReconnectPeriod: '1',

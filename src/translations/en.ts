@@ -473,8 +473,8 @@ export const en = {
 	'page.body.landing.header.history': 'History',
 	'page.body.landing.header.account': 'Account',
 
-	'page.body.landing.marketInfo.title.text1': 'Welcome to Baseapp.',
-	'page.body.landing.marketInfo.title.text2': 'Buy, sell and trade digital currency.',
+	'page.body.landing.marketInfo.title.text1': 'Welcome to FORTEM',
+	'page.body.landing.marketInfo.title.text2': 'The home of digital asset trading',
 	'page.body.landing.marketInfo.title.button.register': 'Register Now',
 	'page.body.landing.marketInfo.title.button.trade': 'Start Trading',
 

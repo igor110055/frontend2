@@ -1,6 +1,6 @@
 import { DropdownElem } from '../components/Order';
 
-export const PG_TITLE_PREFIX = 'Udonex Exchange';
+export const PG_TITLE_PREFIX = 'FORTEM Exchange';
 
 export const pgRoutes = (isLoggedIn: boolean, isLight?: boolean): string[][] => {
 	const routes = [
@@ -20,7 +20,7 @@ export const pgRoutes = (isLoggedIn: boolean, isLight?: boolean): string[][] => 
 
 export const DEFAULT_CCY_PRECISION = 4;
 export const STORAGE_DEFAULT_LIMIT = 20;
-export const ORDER_BOOK_DEFAULT_SIDE_LIMIT = 50;
+export const ORDER_BOOK_DEFAULT_SIDE_LIMIT = 100;
 export const DEFAULT_TRADING_VIEW_INTERVAL = '5';
 export const VALUATION_PRIMARY_CURRENCY = 'BTC';
 export const VALUATION_SECONDARY_CURRENCY = 'USD';
@@ -33,15 +33,15 @@ export const DEFAULT_ORDER_TYPES: DropdownElem[] = ['Limit', 'Market'];
 export const AMOUNT_PERCENTAGE_ARRAY = [0.25, 0.5, 0.75, 1];
 
 export const DEFAULT_MARKET = {
-	id: '',
-	name: '',
-	base_unit: '',
-	quote_unit: '',
-	min_price: '',
-	max_price: 0,
-	min_amount: 0,
-	amount_precision: 0,
-	price_precision: 0,
+	id: 'BTC/USD',
+	name: 'BTC/USD',
+	base_unit: 'BTC',
+	quote_unit: 'USD',
+	min_price: '5000',
+	max_price: 100000,
+	min_amount: 0.00001,
+	amount_precision: 5,
+	price_precision: 5,
 };
 
 export const colors = {

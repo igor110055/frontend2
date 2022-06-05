@@ -1,10 +1,10 @@
 .headerDesktop-screen {
-	background: var(--body-background-color);
+	background: dark;
 
 	/* padding: 0.5rem 0.5rem; */
 	border-bottom: 2px solid;
-	border-color: var(--blue);
-	color: white;
+	border-color: gray;
+	color: gray;
 
 	.container-header {
 		margin: 0 20px;
@@ -58,20 +58,22 @@
 					transition: all 0.3s;
 
 					&--active {
-						background: var(--blue);
+						background: dark;
 
 						a {
-							color: var(--header-background-color) !important;
+							color: white !important;
+							border-bottom: 0.7px solid;
+							border-color: white;
 						}
 					}
 
 					&__dropbtn {
-						border: none;
-						color: white;
+						border: gray;
+						color: gray;
 						font-size: 16px;
 
 						&::before {
-							background-color: #fff;
+							background-color: gray;
 							content: '';
 							height: 60px;
 							opacity: 0;
@@ -82,7 +84,7 @@
 
 						&__svg {
 							svg {
-								color: white !important;
+								color: gray !important;
 								height: 32px;
 								width: 32px;
 							}
@@ -91,11 +93,11 @@
 						&__tag-icon {
 							-webkit-align-items: center;
 							align-items: center;
-							background-color: var(--blue);
+							background-color: white;
 							border-radius: 5px;
 							-webkit-box-align: center;
 							box-sizing: border-box;
-							color: #212822;
+							color: green;
 							display: -webkit-box;
 							display: -webkit-flex;
 							display: -ms-flexbox;
@@ -110,7 +112,7 @@
 							transform: translateY(0);
 
 							&::before {
-								border-bottom: 8px solid var(--blue);
+								border-bottom: 8px solid var(--gray);
 								border-left: 7px solid transparent;
 								border-right: 7px solid transparent;
 								content: '';
@@ -144,7 +146,7 @@
 						z-index: 100;
 
 						a {
-							color: white !important;
+							color: gray !important;
 							display: block;
 							font-size: 16px;
 							padding: 20px 16px;
@@ -160,21 +162,21 @@
 
 					&__content a:hover {
 						background-color: var(--header-background-color);
-						color: var(--blue) !important;
+						color: white !important;
 					}
 
 					&__content link:hover {
-						background-color: rgb(49, 52, 69);
-						color: var(--blue) !important;
+						background-color: pink;
+						color: var(--red) !important;
 					}
 
 					&:hover .header__left-menu__dropdown__wrap__content {
-						color: var(--blue) !important;
+						color: var(--green) !important;
 						display: block;
 					}
 
 					&:hover .header__left-menu__dropdown__wrap__dropbtn {
-						color: var(--blue);
+						color: var(--white);
 					}
 
 					&:hover .header__left-menu__dropdown__wrap__dropbtn__icon-drop-down {
@@ -201,16 +203,18 @@
 					position: relative;
 
 					&--active {
-						background: var(--blue);
+						background: dark;
 
 						a {
-							color: var(--header-background-color) !important;
+							color: white !important;
+							border-bottom: 0.7px solid;
+							border-color: white;
 						}
 					}
 
 					&__dropbtn {
 						border: none;
-						color: white;
+						color: gray;
 						font-size: 16px;
 						outline: none;
 						text-decoration: none !important;
@@ -226,7 +230,9 @@
 						}
 
 						&--active {
-							color: var(--body-background-color) !important;
+							color: white !important;
+							border-bottom: 0.7px solid;
+							border-color: white;
 
 							.header__left-menu__dropdown__wrap__dropbtn__icon-drop-down,
 							.header__right-menu__dropdown__wrap__dropbtn__icon-drop-down {
@@ -263,10 +269,10 @@
 						}
 
 						&__title {
-							color: #fff;
+							color: gray;
 
 							&:hover {
-								color: var(--blue);
+								color: white;
 							}
 
 							&__icon {
@@ -274,7 +280,7 @@
 							}
 
 							&--active {
-								color: var(--blue);
+								color: white;
 							}
 						}
 
@@ -299,7 +305,7 @@
 						}
 
 						link {
-							color: white;
+							color: pink;
 							display: block;
 							padding: 20px 16px;
 							text-decoration: none !important;
@@ -346,17 +352,20 @@
 
 					a,
 					span {
-						color: white;
+						color: gray;
 						outline: none;
 						text-decoration: none;
 					}
 
 					&--active {
-						background: var(--blue);
+						background: dark;
+						color: white !important;
+							border-bottom: 0.7px solid;
+							border-color: white;
 
 						a,
 						&:hover {
-							color: var(--header-background-color) !important;
+							color: white !important;
 						}
 					}
 

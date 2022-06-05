@@ -270,7 +270,7 @@ export const Header: React.FC = () => {
 									to="/ieo"
 									className="header__left-menu__dropdown__wrap__dropbtn d-flex flex-row align-items-center"
 								>
-									Launchpad
+									Initial Coin Offering
 								</Link>
 							</div>
 						</div>

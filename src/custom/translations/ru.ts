@@ -396,8 +396,8 @@ export const ru: LangType = {
 	'page.body.vote.msg.fail': 'Vote fail',
 	'page.body.vote.news.title':
 		'Every 10 days we pick the most voted coin. Only one coin is selected. 1 vote = {vote_rate} {vote_currencie}. Minimum 100,000 votes required to be considered.',
-	'page.body.vote.news.title.you_can_buy': 'You can buy UDON on',
-	'page.body.vote.news.title.exchange_name': 'UDONEX Exchange',
+	'page.body.vote.news.title.you_can_buy': 'You can buy FORTEM Token (FTK) on',
+	'page.body.vote.news.title.exchange_name': 'FORTEM Exchange',
 	'page.body.vote.news.title.pancakeswap': 'Pancakeswap',
 	'page.body.vote.news.new_coin': 'New Coins',
 	'page.body.vote.news.balance': 'Balance {vote_currencie} : {vote_value}',
@@ -547,8 +547,8 @@ export const ru: LangType = {
 	'page.body.landing.header.history': 'History',
 	'page.body.landing.header.account': 'Account',
 
-	'page.body.landing.marketInfo.title.text1': 'Welcome to Baseapp.',
-	'page.body.landing.marketInfo.title.text2': 'Buy, sell and trade digital currency.',
+	'page.body.landing.marketInfo.title.text1': 'Welcome to FORTEM',
+	'page.body.landing.marketInfo.title.text2': 'The home of digital asset trading',
 	'page.body.landing.marketInfo.title.button.register': 'Register Now',
 	'page.body.landing.marketInfo.title.button.trade': 'Start Trading',
 
@@ -1542,7 +1542,7 @@ export const ru: LangType = {
 		'Do you want to purchase ready-made crypto exchange with existing domain name, custom design and layout? Get one in less than 24 hours!',
 	'landing.banner.content.domain.text': 'READY-MADE',
 	'landing.banner.content.domain.sub': 'CORE EXCHANGES',
-	'landing.banner.content.domain.udonex': 'EX.UDONEX.COM - LIVE',
+	'landing.banner.content.domain.udonex': 'FORTEM.EXCHANGE - LIVE',
 	'landing.banner.content.domain.udonswap': 'UDONDEX - SOON',
 	'landing.banner.content.domain.nft': 'NFT - SOON',
 	'landing.banner.content.domain.action.title': 'Up to',

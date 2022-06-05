@@ -215,7 +215,7 @@ const Login = React.memo((props: LogInProps) => {
 							<span data-bn-type="text" style={{ color: 'green' }}>
 								https://
 							</span>
-							<span data-bn-type="text">ex.udonex.com</span>
+							<span data-bn-type="text">fortem.exchange</span>
 						</div>
 					</div>
 					{logo}

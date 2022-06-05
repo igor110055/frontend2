@@ -24,7 +24,6 @@ import DownloadGG from './home/Screen2.png';
 import Download2 from './home/Screen3.png';
 import Download1 from './home/Screen4.png';
 import Telegram from './home/Telegram.svg';
-import Udon from './home/udon-img.svg';
 import WhatApp from './home/WhatApp.svg';
 import YouT from './home/ytb.svg';
 import { transactionsListFetch } from 'modules/plugins/transactions';
@@ -77,23 +76,25 @@ export const NewUdonHomePage = () => {
 			<div className="homepage-banner" style={{ backgroundImage: 'url(' + background + ')' }}>
 				<div className="container">
 					<div className="row">
-						<div className="col-lg-8 main-homepage-banner">
-							<h2 className="main-homepage-banner__title">
+						<div className="col main-homepage-banner-top">
+							<h1 className="main-homepage-banner__title1" style={{display: 'flex', justifyContent:'center', alignItems:'center', fontSize: "5rem" }}>
+								{intl.formatMessage({ id: 'page.body.landing.marketInfo.title.text1' })}
+							</h1>
+							<h2 className="main-homepage-banner__title2" style={{display: 'flex', justifyContent:'center', alignItems:'center', fontSize: "4rem" }}>
 								{intl.formatMessage({ id: 'page.body.landing.marketInfo.title.text2' })}
 							</h2>
-							<button
-								className="main-homepage-banner__button"
-								onClick={() => {
-									isLogin ? redirectTrading() : redirectSingUP();
-								}}
+							<h6 style={{display: 'flex', justifyContent:'center', alignItems:'center', fontSize: "2rem" }}>
+								<button style={{alignSelf:'center'}} 
+									className="main-homepage-banner__button"
+									onClick={() => {
+										isLogin ? redirectTrading() : redirectSingUP();
+									}}
 							>
-								{isLogin
-									? intl.formatMessage({ id: 'page.body.landing.marketInfo.title.button.trade' })
-									: intl.formatMessage({ id: 'page.body.landing.marketInfo.title.button.register' })}
-							</button>
-						</div>
-						<div className="col-lg-4 d-flex">
-							<img src={Udon} alt="" />
+									{isLogin
+										? intl.formatMessage({ id: 'page.body.landing.marketInfo.title.button.trade' })
+										: intl.formatMessage({ id: 'page.body.landing.marketInfo.title.button.register' })}
+								</button>
+							</h6> 
 						</div>
 					</div>
 				</div>
