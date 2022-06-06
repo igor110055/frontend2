@@ -127,6 +127,7 @@ export const NewUdonHomePage = () => {
 				<div className="pg-landing-screen__market-info__wrap">
 					<UdonMarket />
 				</div>
+				<div className="pg-landing-screen__market-info2"style={{ width: 200, height: 100 }}></div>
 			</div>
 		);
 	};
@@ -136,7 +137,7 @@ export const NewUdonHomePage = () => {
 				<div className="container">
 					<div className="main-homepage-download">
 						<div className="row dowdload-box">
-							<div className="col-5 dowdload-box__box-1" style={{ paddingTop: 100 }}>
+							<div className="col-5 dowdload-box__box-1" style={{ paddingTop: 10 }}>
 								<div className="row ">
 									<div className="col-12">
 										<div className="d-flex justify-content-start">
