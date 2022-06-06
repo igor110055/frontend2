@@ -123,8 +123,10 @@ export const NewUdonHomePage = () => {
 	};
 	const renderMarket = () => {
 		return (
-			<div className="homepage-markets pt-5" style={{ backgroundImage: 'url(' + BG_SigUp + ')' }}>
-				<UdonMarket />
+			<div className="pg-landing-screen__market-info">
+				<div className="pg-landing-screen__market-info__wrap">
+					<UdonMarket />
+				</div>
 			</div>
 		);
 	};

@@ -30,20 +30,21 @@ const TableStyles = styled.div`
 			padding-right: 10px;
 			padding-left: 40px;
 			transition: all 0.2s;
-			background-color: var(--system-text-white-color);
+			background-color: var(--subheader-background-color);
 		}
 		td:last-child {
 			text-align: right;
 			padding-right: 40px;
 		}
 		tr {
-			border-bottom: 0.5px solid #c4c4c4;
+			border-bottom: 0.2px solid #c4c4c4;
 			transition: all 0.3s;
 		}
 		th {
-			color: #000;
+			color: white;
 			padding-left: 40px;
-			background-color: var(--btn-blue-level-3);
+			background-color:  var(--header-background-color);
+			border-bottom: 0.5px solid #c4c4c4;
 		}
 		th:not(:first-child) {
 			text-align: center;
@@ -58,6 +59,7 @@ const TableStyles = styled.div`
 		tr:hover {
 			background: var(--system-text-white-color);
 			box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.45);
+			border-bottom: 0.3px solid #017890;
 		}
 		thead:hover tr {
 			box-shadow: none;

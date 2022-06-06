@@ -88,7 +88,7 @@ export const UdonMarket = props => {
 					return {
 						...market,
 						name: (
-							<div className="d-flex flex-row align-items-center">
+							<div className="d-flex flex-row align-items-center" >
 								<img
 									style={{ borderRadius: '50%' }}
 									width="30px"
@@ -96,7 +96,7 @@ export const UdonMarket = props => {
 									src={findIcon(baseCurrency)}
 									alt="marketName"
 								/>
-								<span style={{ color: '#333333', marginLeft: 8 }}>{marketName[0]}</span>
+								<span style={{ color: 'white', marginLeft: 8, }}>{marketName[0]}</span>
 							</div>
 						),
 						last: (
@@ -129,7 +129,7 @@ export const UdonMarket = props => {
 	const columns = React.useMemo(() => {
 		return [
 			{
-				Header: 'Name',
+				Header: 'Token Name',
 				accessor: 'name',
 			},
 			{
@@ -141,7 +141,7 @@ export const UdonMarket = props => {
 				accessor: 'price_change_percent',
 			},
 			{
-				Header: 'Trade',
+				Header: 'Trade Now',
 				accessor: 'trade',
 			},
 		];
@@ -151,14 +151,14 @@ export const UdonMarket = props => {
 		history.push('/markets');
 	};
 	return (
-		<div id="new-marketList">
-			<div className="container">
+		<div id="new-marketList" >
+			<div className="container" style={{ color: '#FFFFFF' }}>
 				<div className="row">
-					<div className="col-12">
+					<div className="col-12" style={{ color: '#FFFFFF' }}>
 						<div>{Markets()}</div>
 					</div>
 				</div>
-				<div className="row">
+				<div className="row" >
 					<div className="col-lg-12 text-center">
 						<button onClick={redirectMarketList} className="redirect-to-market__btn">
 							More {'>>'}
