@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Link, useHistory } from 'react-router-dom';
 import { logoutFetch, selectUserLoggedIn } from '../../modules';
 
-const Logo = require('../../assets/images/UdonLogo.svg');
+const Logo = require('../../assets/images/new-fortem-logo.png');
 
 export const Header: React.FC = () => {
 	const history = useHistory();

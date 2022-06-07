@@ -6,7 +6,7 @@ interface IconProps {
 }
 
 export const SwapIcon: React.FC<IconProps> = ({ className, active }) => {
-	const color = active ? '#FFB800' : '#fff';
+	const color = active ? '#017890' : '#fff';
 
 	return (
 		<svg xmlns="http://www.w3.org/2000/svg" className={className} id="outline" viewBox="0 0 512 512" width="512" height="512">

@@ -59,13 +59,13 @@ export const NewUdonHomePage = () => {
 	const events = useSelector(selectEvents);
 
 	const settingEvents = {
-		dots: false,
+		dots: true,
 		infinite: true,
 		speed: 500,
 		autoplay: true,
 		autoplaySpeed: 3000,
 		pauseOnHover: true,
-		slidesToShow: 3,
+		slidesToShow: 1,
 		slidesToScroll: 1,
 	};
 
@@ -105,13 +105,13 @@ export const NewUdonHomePage = () => {
 	const renderEvent = () => {
 		return (
 			<div className="homepage-event">
-				<div className="container">
+				<div className="container" style={{ width:1350, height: 450}}>
 					<Slider {...settingEvents}>
 						{[...events.payload].map(event => {
 							return (
-								<div style={{ width: 270, height: 150 }}>
+								<div >
 									<a href={event.ref_link} className="slide" target="_blank">
-										<img src={event.image_link} style={{ width: '100%', height: '100%', borderRadius: 4 }} />
+										<img src={event.image_link} style={{ width: '100%', height: `100%`, borderRadius: 4 }} />
 									</a>
 								</div>
 							);

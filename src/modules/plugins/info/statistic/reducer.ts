@@ -6,9 +6,9 @@ import { StatisticState } from './types';
 
 export const initialStatistic: StatisticState = {
 	payload: {
-		currencies: 0,
-		members: 0,
-		markets: 0,
+		currencies: 10,
+		members: 1634,
+		markets: 6,
 	},
 	loading: false,
 };

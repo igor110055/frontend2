@@ -6,7 +6,7 @@ interface IconProps {
 }
 
 export const TransactionIcon: React.FC<IconProps> = ({ className, active }) => {
-	const color = active ? '#FFB800' : '#fff';
+	const color = active ? '#017890' : '#fff';
 
 	return (
 		<svg

@@ -80,7 +80,7 @@ const NewHomePage = () => {
 
 	return (
 		<div className="td-mobile-screen-home">
-			<div className="td-mobile-screen-home__box-img">
+			<div className="td-mobile-screen-home__box-img" >
 				<BoxImg />
 			</div>
 			<Announcment />

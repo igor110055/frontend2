@@ -121,8 +121,8 @@
 }
 
 .homepage-event {
-	background: white;
-	padding: 50px 0 50px 0;
+	background: dark;
+	padding: 50px 0 10px 0;
 
 	.container {
 		padding: 0;
@@ -130,14 +130,19 @@
 		.slick-initialized {
 			.slick-list .slick-track .slick-slide {
 				padding: 0 1rem;
-			}
 
+			}
+			.slick-dots li.slick-active button:before {
+				color:white !important;
+			}
 			.slick-prev {
 				&::before {
-					border-radius: 4px;
-					color: var(--system-text-black-color);
+					border-radius: 20px;
+					border: none;
+					background-color: gray;
+					color: var(--system-text-white-color);
 					content: '﹤';
-					font-size: 22px;
+					font-size: 25px;
 					margin-left: -28px;
 					padding: 6px 10px 8px 6px;
 					vertical-align: middle;
@@ -146,10 +151,12 @@
 
 			.slick-next {
 				&::before {
-					border-radius: 4px;
-					color: var(--system-text-black-color);
+					border-radius: 20px;
+					border: none;
+					background-color: gray;
+					color: var(--system-text-white-color);
 					content: '﹥';
-					font-size: 22px;
+					font-size: 25px;
 					margin-right: -28px;
 					padding: 6px 6px 8px 10px;
 					vertical-align: middle;
@@ -165,14 +172,14 @@
 			padding-top: 20px;
 
 			&__description {
-				color: #017890;
+				color: white;
 				font-size: 16px;
 				line-height: 19px;
 				margin-right: 10px;
 			}
 
 			&__more {
-				color: black;
+				color: white;
 				cursor: pointer;
 				font-size: 16px;
 				line-height: 19px;
@@ -184,7 +191,7 @@
 
 .homepage-markets {
 	background: dark;
-	padding: 0 0 100px 0;
+	padding: 50px 0 100px 0;
 }
 
 .homepage-download {
@@ -358,7 +365,7 @@
 	display: flex;
 	flex-direction: row;
 	gap: 1rem;
-	padding: 3rem 2rem;
+	padding: 2rem 4rem;
 
 	&__number {
 		align-items: center;

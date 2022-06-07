@@ -111,7 +111,7 @@ export const UdonMarket = props => {
 						price_change_percent: <span style={{ color: marketChangeColor }}>{market.price_change_percent}</span>,
 						trade: (
 							<button onClick={() => handleRedirectToTrading(market.id)} className="udon-market__trading-btn">
-								Trade
+								Invest
 							</button>
 						),
 					};

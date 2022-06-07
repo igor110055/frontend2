@@ -27,8 +27,8 @@ export const en = {
 	'page.homePage.trade.start': 'GET STARTED!',
 	'page.homePage.trade.title':
 		'Trade over 100 cryptocurrencies including BTC, ETH, LTC, DOGE, Altcoins, Stablecoins and Platform Tokens',
-	'page.homePage.trade.btn.trade': 'Trade',
-	'page.homePage.trade.btn.signup': 'Sign Up Now',
+	'page.homePage.trade.btn.trade': 'Invest',
+	'page.homePage.trade.btn.signup': 'Invest',
 
 	// end new homepage
 

@@ -6,8 +6,8 @@ interface IconProps {
 }
 
 export const TradeIcon: React.FC<IconProps> = ({ className, active }) => {
-	const color = active ? '#fff' : '#FFB800';
-	const bgColor = active ? '#FFB800' : '#fff';
+	const color = active ? '#fff' : '#017890';
+	const bgColor = active ? '#017890' : '#fff';
 
 	return (
 		<svg

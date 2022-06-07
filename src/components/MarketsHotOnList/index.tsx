@@ -34,7 +34,7 @@ export const MarketsHotOnlist: React.FC<any> = () => {
 		price_change_percent: '+0.00%',
 		volume: '0.0',
 	};
-	const displayMarket = 'usdt';
+	const displayMarket = 'usd';
 
 	const dispatch = useDispatch();
 	const [marketNames, setMarketNames] = React.useState<string[]>([]);
@@ -86,8 +86,8 @@ export const MarketsHotOnlist: React.FC<any> = () => {
 		}
 	}, [markets.length]);
 
-	const BASE_MARKET_URL = 'https://demo-exchange.jefersonmartin.com.br/api/v2/udonex/public/markets';
-	// const BASE_MARKET_URL = `${window.document.location.origin}/api/v2/udonex/public/markets`;
+	const BASE_MARKET_URL = 'http://demo-exchange.jefersonmartin.com.br/api/v2/udonex/public/markets';
+	//const BASE_MARKET_URL = `${window.document.location.origin}/api/v2/udonex/public/markets`;
 
 	const fetchMarketsKlines = async (marketId: string, from: number, to: number) => {
 		try {

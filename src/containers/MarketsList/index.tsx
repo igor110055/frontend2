@@ -153,8 +153,8 @@ export const MarketsList = props => {
 		if (nameMarketPair === 'FIAT') {
 			const marketFIATs = [
 				{
-					name: 'BUSD',
-					fill: 'busd',
+					name: 'USD',
+					fill: 'usd',
 				},
 				{
 					name: 'USDC',
