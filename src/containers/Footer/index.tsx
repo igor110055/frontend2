@@ -126,7 +126,7 @@ const renderFooterDesktop = (inputEmail, sendEmail, emailAddress) => {
 			<div>
 				<div className="white-line"></div>
 				<p className="footer__copyright">
-					UDONEX Exchange © 2021 <span className="text-primary">Udonex.com</span> All rights reserved.
+					FORTEM Digital Assets © 2022 <span className="text-primary">fortem.exchange</span> All rights reserved.
 				</p>
 			</div>
 		</div>

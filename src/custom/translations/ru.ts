@@ -100,8 +100,8 @@ export const ru: LangType = {
 	'page.marketsLists.table.header.high': '24h High',
 	'page.marketsLists.table.header.low': '24h Low',
 	'page.marketsLists.table.header.volume': '24h Volume',
-	'page.marketsLists.table.header.trade': 'Trade',
-	'page.marketsLists.table.body.trade': 'Trade',
+	'page.marketsLists.table.header.trade': 'Invest',
+	'page.marketsLists.table.body.trade': 'Invest',
 
 	'page.marketsLists.input.search.placeholder': 'search coin name...',
 	'page.marketsLists.tab.favorites': 'Favorites',
@@ -529,11 +529,11 @@ export const ru: LangType = {
 	'page.body.marketsTable.filter.all': 'All',
 	'page.body.marketsTable.header.pair': 'Pair',
 	'page.body.marketsTable.header.lastPrice': 'Last Price',
-	'page.body.marketsTable.header.change': '24 Change',
-	'page.body.marketsTable.header.high': '24  high',
-	'page.body.marketsTable.header.low': '24 low',
-	'page.body.marketsTable.header.volume': '24 Volume',
-	'page.body.marketsTable.header.trade': 'Trade',
+	'page.body.marketsTable.header.change': '24h Change',
+	'page.body.marketsTable.header.high': '24h  high',
+	'page.body.marketsTable.header.low': '24h low',
+	'page.body.marketsTable.header.volume': '24h Volume',
+	'page.body.marketsTable.header.trade': 'Invest',
 
 	/* Landing */
 	'page.body.landing.header.button1': 'profile',
